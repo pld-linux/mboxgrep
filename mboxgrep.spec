@@ -7,8 +7,8 @@ License:	GPL
 Group:		Applications/Text
 Source0:	ftp://ftp.sourceforge.net/pub/sourceforge/mboxgrep/%{name}-%{version}.tar.gz
 URL:		http://mboxgrep.sourceforge.net/
-BuildRequires:  pcre-devel
-BuildRequires:  zlib-devel
+BuildRequires:	pcre-devel
+BuildRequires:	zlib-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -53,7 +53,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz 
+%doc *.gz
 %attr(755,root,root) %{_bindir}/*
 %{_infodir}/*
 %{_mandir}/*/*
