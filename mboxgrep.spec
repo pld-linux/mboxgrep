@@ -28,11 +28,12 @@ maildir folders.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_infodir},%{_mandir}/man1}
+
 install	src/mboxgrep $RPM_BUILD_ROOT%{_bindir}
 install doc/*.1	     $RPM_BUILD_ROOT%{_mandir}/man1
 install doc/*info*   $RPM_BUILD_ROOT%{_infodir}
+
 gzip -9nf NEWS README
 
 %clean
