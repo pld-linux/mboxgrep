@@ -1,12 +1,12 @@
 Summary:	Grep for mailboxes
 Summary(pl):	grep dla skrzynek pocztowych
 Name:		mboxgrep
-Version:	0.7.7
+Version:	0.7.8
 Release:	1
 License:	GPL
 Group:		Applications/Text
 Source0:	ftp://ftp.sourceforge.net/pub/sourceforge/mboxgrep/%{name}-%{version}.tar.gz
-URL:		http://mboxgrep.sourceforge.net/
+URL:   		http://www.mboxgrep.org/
 BuildRequires:	pcre-devel
 BuildRequires:	zlib-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -26,7 +26,7 @@ standardowym wyj¶ciu, liczone lub zapisywane do innej skrzynki.
 mboxgrep obs³uguje skrzynki mbox, MH, nnmh, nnml oraz foldery Maildir.
 
 %prep
-%setup -q
+%setup -q -n %{name}
 
 %build
 %configure
