@@ -5,7 +5,7 @@ Version:	0.7.8
 Release:	1
 License:	GPL
 Group:		Applications/Text
-Source0:	ftp://ftp.sourceforge.net/pub/sourceforge/mboxgrep/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/mboxgrep/%{name}-%{version}.tar.gz
 URL:   		http://www.mboxgrep.org/
 BuildRequires:	pcre-devel
 BuildRequires:	zlib-devel
