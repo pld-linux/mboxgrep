@@ -1,8 +1,8 @@
 Summary:	Grep for mailboxes
 Summary(pl):	grep dla skrzynek pocztowych
 Name:		mboxgrep
-Version:	0.7.4
-Release:	2
+Version:	0.7.5
+Release:	1
 License:	GPL
 Group:		Applications/Text
 Group(de):	Applikationen/Text
