@@ -8,6 +8,7 @@ Group:		Applications/Text
 Source0:	http://dl.sourceforge.net/mboxgrep/%{name}-%{version}.tar.gz
 # Source0-md5:	4b256de164b8f094db9ccf0e6386d246
 URL:		http://www.mboxgrep.org/
+BuildRequires:	bzip2-devel
 BuildRequires:	pcre-devel
 BuildRequires:	zlib-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
