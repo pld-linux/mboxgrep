@@ -6,6 +6,7 @@ Release:	2
 License:	GPL
 Group:		Applications/Text
 Group(de):	Applikationen/Text
+Group(fr):	Utilitaires/Texte
 Group(pl):	Aplikacje/Tekst
 Source0:	ftp://ftp.sourceforge.net/pub/sourceforge/mboxgrep/%{name}-%{version}.tar.gz
 URL:		http://mboxgrep.sourceforge.net/
