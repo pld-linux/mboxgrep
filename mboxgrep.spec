@@ -16,14 +16,14 @@ mboxgrep is a small utility that scans a mailbox for messages matching
 a basic, extended, or Perl-compatible regular expression. Found
 messages can be either displayed on standard output, counted or
 written to another mailbox. It supports mbox, MH, nnmh, nnml and
-maildir folders.
+Maildir folders.
 
 %description -l pl
-mboxgrep to niewielkie narzêdzie skanuj±ce skrzynkê pocztow± szukaj±ce
+mboxgrep to niewielkie narzêdzie szukaj±ce w skrzynce pocztowej
 wiadomo¶ci pasuj±cych do podstawowego, rozszerzonego lub perlowego
 wyra¿enia regularnego. Znalezione wiadomo¶ci mog± byæ wy¶wietlane na
-standardowym wyj¶ciu, liczone i zapisywane do innej skrzynki. mboxgrep
-obs³uguje skrzynki mbox, MH, nnmh, nnml oraz foldery Maildir.
+standardowym wyj¶ciu, liczone lub zapisywane do innej skrzynki.
+mboxgrep obs³uguje skrzynki mbox, MH, nnmh, nnml oraz foldery Maildir.
 
 %prep
 %setup -q
@@ -37,8 +37,8 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_infodir},%{_mandir}/man1}
 
 install	src/mboxgrep $RPM_BUILD_ROOT%{_bindir}
-install doc/*.1	     $RPM_BUILD_ROOT%{_mandir}/man1
-install doc/*info*   $RPM_BUILD_ROOT%{_infodir}
+install doc/*.1 $RPM_BUILD_ROOT%{_mandir}/man1
+install doc/*info* $RPM_BUILD_ROOT%{_infodir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
