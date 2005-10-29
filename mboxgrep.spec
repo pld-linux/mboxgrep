@@ -3,7 +3,7 @@ Summary(pl):	grep dla skrzynek pocztowych
 Name:		mboxgrep
 Version:	0.7.9
 Release:	2
-License:	GPL
+License:	GPL v2
 Group:		Applications/Text
 Source0:	http://dl.sourceforge.net/mboxgrep/%{name}-%{version}.tar.gz
 # Source0-md5:	4b256de164b8f094db9ccf0e6386d246
@@ -53,7 +53,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc NEWS README
+%doc ChangeLog NEWS README TODO
 %attr(755,root,root) %{_bindir}/*
-%{_infodir}/*
+%{_infodir}/*.info*
 %{_mandir}/*/*
