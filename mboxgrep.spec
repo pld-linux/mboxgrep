@@ -1,5 +1,5 @@
 Summary:	Grep for mailboxes
-Summary(pl):	grep dla skrzynek pocztowych
+Summary(pl.UTF-8):   grep dla skrzynek pocztowych
 Name:		mboxgrep
 Version:	0.7.9
 Release:	2
@@ -20,12 +20,12 @@ messages can be either displayed on standard output, counted or
 written to another mailbox. It supports mbox, MH, nnmh, nnml and
 Maildir folders.
 
-%description -l pl
-mboxgrep to niewielkie narzêdzie szukaj±ce w skrzynce pocztowej
-wiadomo¶ci pasuj±cych do podstawowego, rozszerzonego lub perlowego
-wyra¿enia regularnego. Znalezione wiadomo¶ci mog± byæ wy¶wietlane na
-standardowym wyj¶ciu, liczone lub zapisywane do innej skrzynki.
-mboxgrep obs³uguje skrzynki mbox, MH, nnmh, nnml oraz foldery Maildir.
+%description -l pl.UTF-8
+mboxgrep to niewielkie narzÄ™dzie szukajÄ…ce w skrzynce pocztowej
+wiadomoÅ›ci pasujÄ…cych do podstawowego, rozszerzonego lub perlowego
+wyraÅ¼enia regularnego. Znalezione wiadomoÅ›ci mogÄ… byÄ‡ wyÅ›wietlane na
+standardowym wyjÅ›ciu, liczone lub zapisywane do innej skrzynki.
+mboxgrep obsÅ‚uguje skrzynki mbox, MH, nnmh, nnml oraz foldery Maildir.
 
 %prep
 %setup -q
