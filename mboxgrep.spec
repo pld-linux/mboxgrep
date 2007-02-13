@@ -1,5 +1,5 @@
 Summary:	Grep for mailboxes
-Summary(pl.UTF-8):   grep dla skrzynek pocztowych
+Summary(pl.UTF-8):	grep dla skrzynek pocztowych
 Name:		mboxgrep
 Version:	0.7.9
 Release:	2
